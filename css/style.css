@@ -1,0 +1,19 @@
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    html, body {
+        overflow: visible;
+    }
+    
+}
+
+.login,.image {
+    min-height: 100vh;
+}
+
+.bg-image {
+    background-position: center center;
+}
